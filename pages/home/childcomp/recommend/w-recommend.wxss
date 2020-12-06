@@ -1,0 +1,20 @@
+.mode{
+  display: flex;
+  margin-top: 40rpx;
+  border-bottom: 16rpx solid #eee;
+  padding-bottom: 40rpx;
+}
+.item{
+  flex: 1;
+  text-align: center;
+}
+.item image{
+  height: 160rpx;
+  width: 160rpx;
+}
+
+.item view{
+  font-size: 30rpx;
+  margin-top: 10rpx;
+  color: #555;
+}

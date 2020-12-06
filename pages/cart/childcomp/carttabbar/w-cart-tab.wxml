@@ -1,0 +1,16 @@
+<!--pages/cart/childcomp/carttabbar/w-cart-tab.wxml-->
+<view class="main">
+  <view class="check-wrap">
+    <checkbox-group bindchange="checkClick">
+      <checkbox class="check" checked="{{ischecked}}">
+        全选
+      </checkbox>
+    </checkbox-group>
+  </view>
+  <view class="price-wrap">
+    <view>
+      总计：￥{{price}}
+    </view>
+    <button class="btn" size="mini">去结算（{{num}}）</button>
+  </view>
+</view>

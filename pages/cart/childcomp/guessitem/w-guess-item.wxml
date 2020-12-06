@@ -1,0 +1,14 @@
+<!--components/goods-item/w-goods-item.wxml-->
+<view class="gooditem">
+  <image src="{{good.img}}" mode="widthFix" class="goodimg"/>
+  <view class="desc-info">
+    <view class="goodtitle">{{good.name}}</view>
+    <view class="detail">
+      <text class="price">￥{{good.price}}</text>
+      <view class="img-wrap" bindtap="btnclick">
+        <image src="/assets/images/tabbar/cart.png"/>
+        <text class="cfav">加购</text>
+      </view>
+    </view>
+  </view>
+</view>

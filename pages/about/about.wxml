@@ -1,0 +1,16 @@
+<!--pages/about/about.wxml-->
+<!-- <button bindtap="addifo">add</button>
+<button bindtap="searchifo">search</button> -->
+<view class="cates">
+  <w-search class="searchbar" />
+  <view class="content">
+    <scroll-view class="left" scroll-y>
+      <w-listitem title="{{title}}" 
+                  bind:listclick='listitemclick'
+                  bind:imgisload="imgisload"/>
+    </scroll-view>
+    <scroll-view class="right" scroll-y>
+      <w-content catecontent="{{currentcontent}}"/>
+    </scroll-view>
+  </view>
+</view>

@@ -1,0 +1,34 @@
+/* components/search/w-search.wxss */
+/*!
+ * WeUI v2.4.0 (https://github.com/weui/weui-wxss)
+ * Copyright 2020 Tencent, Inc.
+ * Licensed under the MIT license
+ */
+ @import './style/weui-searchbar.wxss';
+
+ .searchbar-result{
+   margin-top:0;font-size:14px
+  }
+ .searchbar-result .weui-cell__bd{
+   padding:2px 0 2px 20px;color:var(--weui-FG-1)
+  }
+ .searchbar-result:before{
+   display:none
+  }
+  .page__bd{
+    position: relative;
+  }
+  .weui-search-bar{
+    background-color: #ff5777;
+  }
+  .weui-search-bar__form{
+    border-radius: 20rpx;
+  }
+  .searchbar-result{
+    position: absolute;
+    z-index: 1;
+    border: 8rpx solid #ff5777;
+    width: 80%;
+    margin-left: 20rpx;
+    background-color: white;
+  }

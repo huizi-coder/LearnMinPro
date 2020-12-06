@@ -1,0 +1,10 @@
+<!--pages/about/catecomp/listitem/w-listitem.wxml-->
+<scroll-view class="list">
+  <view wx:for="{{title}}"
+        wx:key="index"
+        class="item {{currentIndex==index ? 'active' : ''}}"
+        bindtap="itemclick"
+        data-index="{{index}}">
+    <view class="title">{{item}}</view>
+  </view>
+</scroll-view>

@@ -1,0 +1,26 @@
+/* pages/about/about.wxss */
+.cates{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* box-sizing: border-box; */
+}
+.searchbar{
+  width: 100%;
+  /* position: absolute; */
+}
+.content{
+  /* margin-top: 92.8rpx;
+  height: 100%; */
+  /* flex: 1; */
+  overflow: hidden;
+  display: flex;
+}
+.left{
+  flex: 1;
+  background-color: white;
+}
+.right{
+  flex: 3;
+  background-color: white;
+}

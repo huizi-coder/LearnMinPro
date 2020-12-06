@@ -1,0 +1,20 @@
+<!--pages/home/home.wxml-->
+<w-search/>
+<w-swiper bannerlist="{{banners}}"/>
+<w-recommend recommends="{{recommends}}"
+             bind:imgisload="imgisload"/>
+<image src="/assets/images/home/recommend_bg.jpg"
+       mode="widthFix"
+       style="width:100%"/>
+<tab-bar title="{{['衣服','裙子','鞋子']}}"
+         bind:tabclick='tabitemclick'
+         id="tabcontrol"
+         class="{{isfixed ? 'fix' : ''}}"/>
+<tab-bar title="{{['衣服','裙子','鞋子']}}" wx:if="{{isfixed}}"/>
+<view class="goods">
+  <block wx:for="{{goods[currenttype].list}}" wx:key="{{index}}">
+    <w-goods-item good="{{item}}" class="goodsitem"/>
+  </block>
+</view>
+<w-back-top wx:if="{{isshow}}"/>
+

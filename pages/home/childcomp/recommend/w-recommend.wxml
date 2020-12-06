@@ -1,0 +1,8 @@
+<!--pages/home/childcomp/recommend/w-recommend.wxml-->
+<view class="mode">
+  <view wx:for="{{recommends}}" wx:key="{{index}}" class="item">
+    <image src="{{item.image}}" bindload="imgload"/>
+    <view>{{item.title}}</view>
+  </view>  
+</view>
+

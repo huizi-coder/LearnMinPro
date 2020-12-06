@@ -1,0 +1,28 @@
+<!--pages/cart/childcomp/cartitem/w-cart-item.wxml-->
+<view class="main">
+  <view class="tabtop"></view>
+  <view class="content">
+    <view class="left">
+      <checkbox-group bindchange="checkchanged">
+        <checkbox checked="{{cartitem.checked}}"></checkbox>
+      </checkbox-group>
+    </view>
+    <view class="middel">
+      <image src="{{cartitem.img}}" mode="widthFix" class="itemimg"></image>
+    </view>
+    <view class="right">
+      <view class="cartname">{{cartitem.name}}</view>
+      <view class="tabbotton">
+        <text class="hintlogo">七天无理由退换</text>
+        <view class="bottom-wrap">
+          <view class="price-wrap">￥{{cartitem.price}}</view>
+          <view class="btn-wrap">
+            <button size="mini" plain bindtap="reduce">-</button>
+            <text class="num">{{cartitem.num}}</text>
+            <button size="mini" plain bindtap="add">+</button>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

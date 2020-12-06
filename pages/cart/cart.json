@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "w-guess-item":"./childcomp/guessitem/w-guess-item",
+    "w-cart-item":"./childcomp/cartitem/w-cart-item",
+    "w-cart-tab":"./childcomp/carttabbar/w-cart-tab"
+  },
+  "navigationBarTitleText":"购物车"
+}

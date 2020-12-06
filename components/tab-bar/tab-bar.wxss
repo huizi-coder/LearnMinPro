@@ -1,0 +1,21 @@
+/* components/tab-bar/tab-bar.wxss */
+.main{
+  display: flex;
+  height: 88rpx;
+  line-height: 88rpx;
+  background-color: white;
+  padding-bottom: 12rpx;
+  margin-bottom: -10rpx;
+}
+.tabitem{
+  flex: 1;
+  text-align: center;
+
+}
+.active{
+  color: deeppink;
+}
+.activetext{
+  padding: 20rpx;
+  border-bottom: 6rpx solid deeppink;
+}

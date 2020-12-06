@@ -1,0 +1,8 @@
+<!--pages/about/catecomp/w-content/w-content.wxml-->
+<view class="content">
+  <view wx:for="{{catecontent}}" class="item">
+    <image src="{{item.img}}" class="img" />
+    <view class="itemtitle">{{item.name}}</view>
+    <image src="/assets/img/common/right.png" class="right" />
+  </view>
+</view>

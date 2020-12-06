@@ -1,0 +1,76 @@
+/* pages/cart/childcomp/cartitem/w-cart-item.wxss */
+.main{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 14rpx;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.left{
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middel{
+  flex: 2;
+}
+.itemimg{
+  width:80%;
+}
+.right{
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+}
+.cartname{
+  margin-top: 20rpx;
+  flex: 1;
+  font-size: 30rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.hintlogo{
+  padding: 8rpx;
+  font-size: 20rpx;
+  color: rgb(105, 128, 179);
+  background-color: rgba(201, 191, 255, 0.349);
+  margin-bottom: 10rpx;
+  margin-top: 20rpx;
+}
+.tabbottom{
+  flex: 1;
+}
+.bottom-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price-wrap{
+  color: rgb(255, 51, 0);
+  font-weight: 600;
+}
+.btn-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-wrap button{
+  border: 0;
+}
+.num{
+  padding: 6rpx;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  font-size: 30rpx;
+  background-color: rgba(211, 211, 211, 0.589);
+  border-radius: 10rpx;
+}

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "w-search":"/components/search/w-search",
+    "w-listitem":"./catecomp/listitem/w-listitem",
+    "w-content":"./catecomp/w-content/w-content"
+  },
+  "navigationBarTitleText":"商品分类"
+}
